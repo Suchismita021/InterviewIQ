@@ -12,7 +12,7 @@ import resumeRouter from "./routes/resume.route.js"
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://interviewiq-2-tov9.onrender.com",
     credentials:true
 }))
 
